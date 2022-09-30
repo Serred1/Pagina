@@ -1,0 +1,21 @@
+body{
+    background-image:url("greta.jpg");
+}
+.titulo{
+    font-size: 45px;
+    color: aliceblue;
+    text-align: center;
+}
+.parrafo{
+    color: rgb(105, 222, 148);
+    text-align: justify;
+}
+.formulario{
+    border-style: solid;  
+    width: 48%;
+    margin: auto;
+    background-color:rgb(193, 235, 54);
+    display: flex;
+    color: black;
+    padding: 15px;
+}
