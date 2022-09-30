@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="quienesSomos.js"></script>
+    <title>Quienes somos</title>
+</head>
+<body>
+    <div class="contenedor">
+        <nav>
+            <a title="Volver a inicio" href="index.html"><button>Volver</button></a>
+        </nav>
+        <h1>Quienes somos</h1>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tenetur autem animi accusantium in, cumque vitae assumenda laudantium error illum possimus a aliquam alias cupiditate repellendus praesentium dolor doloribus officia.
+    Eos excepturi laborum sunt autem, optio reiciendis expedita consequuntur ipsam explicabo at quis eaque debitis eum temporibus illo praesentium, laudantium eveniet? Quisquam voluptas nisi harum nemo odio deserunt magni ad!
+    Dolor, ducimus minus, voluptatibus amet quam odio quidem totam labore id doloribus nisi, officia laboriosam hic. Illum totam culpa in, assumenda expedita suscipit tenetur sint odio eos corporis quibusdam amet.
+    Veritatis impedit sequi veniam architecto qui expedita optio aut repellat voluptates possimus ducimus, quidem vero vel reprehenderit dolores explicabo ea asperiores cupiditate, fugiat tempore. Porro illum nesciunt temporibus eligendi accusamus.</p>
+    <br>
+    <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+        <div class="nombre-completo">
+            <label>Nombre Completo</label>
+            <input id="txNombres" minlength="2" maxlength="50" name="txNombres" onkeypress="ValidaSoloLetras()" type="text">
+        </div>
+        <div class="email">
+            <label>Edad</label>
+            <input id="txTelefono" minlength="1" maxlength="3" name="txTelefono" onkeypress="ValidaSoloNumeros()" type="text"> 
+        </div>
+        <div class="pass">
+            <label>Contraseña</label>
+            <input id="txContraseña" type="password" minlength="6" maxlength="15" name="txContraseña">     
+
+        </div>
+        <div  class="guardar">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+    <br>
+    <center><video src="trailer.mp4" loop controls width="400px" height="400px" poster="mascara.jpg"></video></center>
+    <footer>
+        <nav>
+    </footer>
+</body>
+</html>

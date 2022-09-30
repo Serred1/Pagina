@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        JavaScript CRUD Example Tutorial
+    </title>
+    <link rel="stylesheet" href="crud.css">
+    <script src="crud.js"></script>
+</head>
+
+<body>
+    <nav>
+        <a class="link-volver" title="Volver a inicio" href="index.html"><button>Volver</button></a>
+    </nav>
+
+	<h1 class="titulo-principal"><center>JavaScript CRUD Example Tutorial</center></h1>
+	<hr>
+			<div class="formulario">
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div class="nombre-completo">
+                        <label>Full Name</label><label class="validation-error hide" id="fullNameValidationError"></label>
+                        <input class="caja-name"  type="text" name="fullName" id="fullName">
+                    </div>
+                    <div class="email">
+                        <label>Email Id</label>
+                        <input class="caja-email" type="text" name="email" id="email">
+                    </div>
+                    <div class="salario">
+                        <label>Salary</label>
+                        <input class="caja-salario" type="text" name="salary" id="salary">
+                    </div>
+                    <div class="ciudad">
+                        <label>City</label>
+                        <input class="caja-ciudad" type="text" name="city" id="city">
+                    </div>
+                    <div  class="guardar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+		</div>
+		<br/>
+		<div>
+                <table border="" class="resultados" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th class="title">Full Name</th>
+                            <th class="title">Email Id</th>
+                            <th class="title">Salary</th>
+                            <th class="title">City</th>
+                            <th class="title">💻</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+        </div>
+</body>
+</html>

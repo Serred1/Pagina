@@ -1,0 +1,36 @@
+body {
+    background-image: url("cielo.jpg");
+    color: aliceblue;
+  }
+  a {
+    color: aliceblue;
+    
+  }
+  .titulo{
+    font-size: 50px;
+    text-align: center;
+    color: coral;
+  }
+  .parrafo1{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(233, 90, 90);
+  }
+  .Botones{
+    display: flex;
+    padding-left: 34%;
+  }
+  .video{
+    padding-left: 28%;
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+  }
+  .footer{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,77 @@
+body{
+    padding: 5px;
+    margin: 0;
+    background-image: url(fondo-form.jpg);
+}
+/*Titulo principal*/
+.titulo-principal{
+    color: white;
+
+}
+/*Navegación*/
+.link-volver{
+ color: white;
+}
+/*Formulario*/
+.formulario{
+    border-style: solid;  
+    width: 26%;
+    margin: 0 auto;
+    background-color:rgb(193, 235, 54);
+    display: flex;
+    color: black;
+    padding: 5px;
+}
+/*Estilos a los atributos del formulario*/
+.nombre-completo{
+    margin: 10px;
+}
+.email{
+    margin: 10px;
+}
+.salario{
+    margin: 10px;
+}
+.ciudad{
+    margin: 10px;
+}
+.guardar{
+    margin: 20px;
+    text-align: right;
+    padding-left: 100%;
+}
+/*Estilos a las cajas de texto del formulario*/
+.caja-name{
+    flex-direction: right;
+    width: 130%; 
+    height: 20px;
+
+}
+.caja-email{
+    display: flexbox;
+    flex-direction: right;
+    width: 130%;
+    height: 20px;
+
+}
+.caja-salario{
+    flex-direction: right;
+    width: 130%;
+    height: 20px;
+}
+.caja-ciudad{
+    flex-direction: right;
+    width: 130%;
+    height: 20px;
+}
+.resultados{
+    color: rgb(3, 6, 0); 
+    font-size: 25px;
+    border-style: solid;  
+    width: 56%;
+    margin: 0 auto;
+    background-color:rgb(49, 237, 32);
+
+
+}
+

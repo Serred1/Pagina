@@ -1,0 +1,59 @@
+body{
+    
+    background-color: rgb(38, 112, 223);
+      
+}
+/*butom radiun fondo*/
+.edad{
+    display: -moz-grid-line;
+    background-color:limegreen;
+    color: azure;
+    font-size: 25px;
+    width: 20%;
+
+}
+/*Titulo Pagina*/
+p{
+    color: rgb(252, 252, 252);
+    text-shadow: 2px;
+    font-size: 30px;
+
+}
+/*Links de Contenido*/
+a {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px;
+    font-size: 30px;
+
+}
+/*Tabla de los Clientes*/
+.tabla-clientes {
+    color: rgb(255, 255, 255);
+    background-color: rgb(168, 36, 36);
+    font-size: 25px;
+
+}
+/*Texto JavaScript*/
+.Texto1{
+    text-align: justify;
+    color:aliceblue;
+    font-size: 20px;
+
+}
+.Texto2{
+    text-align: justify;
+    color:aliceblue;
+    font-size: 20px;
+
+}
+.Texto3{
+    text-align: justify;
+    color:aliceblue;
+    font-size: 20px;
+
+}
+
+h1{
+    color: chartreuse;
+    font-size: 45px;
+}
