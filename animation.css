@@ -1,0 +1,16 @@
+.Animacion{
+    width: 200px;
+    height: 200px;
+    background:#aaa;
+    animation-name: mar;
+    animation-duration: 10s;
+    animation-delay: 3s;
+
+}
+@keyframes mar{
+    0%{background:#aaa;}
+    25%{background: rgb(8, 14, 185);}
+    50%{ background:rgb(182, 9, 9) ;}
+    75%{background: rgb(0, 0, 0);}
+    100%{background: rgb(11, 245, 31); }
+}
