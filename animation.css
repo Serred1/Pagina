@@ -3,14 +3,18 @@
     height: 200px;
     background:#aaa;
     animation-name: mar;
-    animation-duration: 10s;
-    animation-delay: 3s;
-
+    animation-duration: 1s;
+    position: relative;/*Posicion empieza en 0 */
+    /*animation-delay: 2s; Empieza la animación en 2s*/
+    /*animation-direction: reverse;/*Invierte el movimiento*/
+    animation-timing-function: linear;/*Limita la velocidad en ambos sentidos*/
+    animation-iteration-count: infinite;/*Repite la animacion*/
 }
-@keyframes mar{
-    0%{background:#aaa;}
-    25%{background: rgb(8, 14, 185);}
-    50%{ background:rgb(182, 9, 9) ;}
-    75%{background: rgb(0, 0, 0);}
-    100%{background: rgb(11, 245, 31); }
+/*Clase de css para crear animaciones*/
+@keyframes mar{/*Invocando el nombre de la animacion*/
+    0%{background:#aaa;left:0px;top:0px;}
+    25%{background:blue;left:1320px;top:0px;}
+    50%{ background:red;left:1320px;top:535px;}
+    75%{background:black;left:0px;top: 535px;}
+    100%{background:lime;left:0px;top:0px;}
 }
