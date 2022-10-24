@@ -1,12 +1,9 @@
-body{
-    background-image: url("greta.jpg");
-}
 .Animacion{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     background:#aaa;
     animation-name: mar;
-    animation-duration: 10s;
+    animation-duration: 1s;
     position: relative;/*Posicion empieza en 0 */
     /*animation-delay: 2s; Empieza la animación en 2s*/
     /*animation-direction: reverse;/*Invierte el movimiento*/
@@ -15,22 +12,9 @@ body{
 }
 /*Clase de css para crear animaciones*/
 @keyframes mar{/*Invocando el nombre de la animacion*/
-    0%{
-    background-image:url("coli.jpg");
-    border-radius: 0%;
-    width: 300px;
-    height: 300px;
-}
-    50%{
-    background-image:url("cielo.jpg");
-    border-radius: 50%;
-    width: 350px;
-    height: 350px;
-}
-    100%{
-    background-image:url("perro.jpg");
-    border-radius: 100%;
-    width: 450px;
-    height: 450px;
-}
+    0%{background:#aaa;left:0px;top:0px;}
+    25%{background:blue;left:1320px;top:0px;}
+    50%{ background:red;left:1320px;top:535px;}
+    75%{background:black;left:0px;top: 535px;}
+    100%{background:lime;left:0px;top:0px;}
 }
