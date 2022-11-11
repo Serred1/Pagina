@@ -71,42 +71,7 @@ body{
     width: 56%;
     margin: 0 auto;
     background-color:rgb(49, 237, 32);
-}
-/*Comienzo de Animacion*/
-.Anima{
-    width: 150px;
-    height: 150px;
-    background: rgb(214, 18, 18);
-    animation-name: miAnima;
-    animation-duration: 10s;
-    position: relative;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-/*Invocacion de Nombre de la Animacion*/
-@keyframes miAnima {
-    0% {background: red;left: 0; top: 0px;}
-    15% {background: yellow;left: 585px; top: 0px;}
-    25% {background: green;left: 585px; top: -445px;}
-    35% {background: blue;left: 585px; top: 0px;}
-    45%{background: blueviolet;left: 0; top: 0px;}
-    55%{background: rgb(160, 163, 164);left: -585px; top: 0px;}
-    65%{background: rgb(18, 71, 35);left: -585px; top: -445px;}
-    75%{background: rgb(5, 1, 1);left: -585px; top: 0px;}
-    100%{background: rgb(38, 22, 134);left: 0px; top: 0px;}
-}
-.Anima2{
-    width: 15px;
-    height: 15px;
-    background: red;
-    animation-name: miAnima2;
-    animation-duration: 5s;
-    position: relative;
-    animation-iteration-count: infinite;
-}
-@keyframes miAnima2{
-    0% {background: red;}
-    50% {background: yellow;}
-    100% {background: rgb(144, 146, 144);}
+
+
 }
 
